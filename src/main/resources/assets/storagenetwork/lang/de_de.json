@@ -1,0 +1,103 @@
+tile.storagenetwork:kabel.name=Speicherkabel
+tile.storagenetwork:storage_kabel.name=Speicher-Link-Kabel
+tile.storagenetwork:ex_kabel.name=Speicher-Exportkabel
+tile.storagenetwork:im_kabel.name=Speicher-Importkabel
+tile.storagenetwork:process_kabel.name=Verarbeitungskabel
+
+tile.storagenetwork:master.name=Speichernetzwerk-Master
+tile.storagenetwork:request.name=Speicheranfrage Tisch
+
+item.storagenetwork:upgrade_0.name=Geschwindigkeits-Upgrade
+item.storagenetwork:upgrade_1.name=Operations-Upgrade
+item.storagenetwork:upgrade_2.name=Stapel-Upgrade
+item.storagenetwork:upgrade_3.name=Lager-Upgrade
+
+item.storagenetwork:remote_0.name=Speicher-Remote
+item.storagenetwork:remote_1.name=Erweiterter Speicher-Remote
+item.storagenetwork:remote_2.name=Upgrade von Speicher-Remote
+item.storagenetwork:remote_3.name=Einfacher Speicher-Remote
+
+tile.storagenetwork:recipe.invalid=Transaktion ungültig: 
+tile.storagenetwork:recipe.invalidleft=Stelle den Eingang links ein
+tile.storagenetwork:recipe.invalidright=Stelle den Eingang rechts ein
+tile.storagenetwork:recipe.valid=Transaktion gültig
+
+item.remote.outofrange=Außer Reichweite
+item.remote.notloaded=Chunk nicht geladen
+
+gui.storagenetwork.operate.tooltip=Aktiv, wenn %s größer als %d %s im Netzwerk ist
+gui.storagenetwork.operate.tooltip.more=mehr
+gui.storagenetwork.operate.tooltip.less=weniger
+
+gui.storagenetwork.refresh=Aktualisieren Sie die Verarbeitungstransaktionen. Wenn Sie also nicht mehr auf ein Ergebnis warten können, wird es wieder in den Rezeptmodus versetzt, um Zutaten zu sammeln.
+
+gui.storagenetwork.checkbox.meta=Meta
+gui.storagenetwork.checkbox.ore=OreDict
+gui.storagenetwork.checkbox.nbt=NBT
+
+gui.storagenetwork.gui.import=Filter importieren
+gui.storagenetwork.gui.whitelist=Whitelist
+gui.storagenetwork.gui.blacklist=Blacklist
+
+gui.storagenetwork.sort=Sortierrichtung
+gui.storagenetwork.priority.up=Priorität herabstufen (kleiner geht vor)
+gui.storagenetwork.priority.down=Priorität fördern (kleiner geht vor)
+
+gui.storagenetwork.req.tooltip_NAME=Nach Name sortieren
+gui.storagenetwork.req.tooltip_MOD=Nach Mod sortieren
+gui.storagenetwork.req.tooltip_AMOUNT=Nach Menge sortieren
+
+gui.storagenetwork.fil.tooltip_IN=Nur Eingabe
+gui.storagenetwork.fil.tooltip_OUT=Nur Ausgabe
+gui.storagenetwork.fil.tooltip_BOTH=Ein und Ausgabe
+
+gui.storagenetwork.shift=Halten Sie die Umschalttaste gedrückt, um weitere Informationen zu erhalten.
+
+gui.storagenetwork.fil.tooltip_0=Prefix @: Suche nach Mod.
+gui.storagenetwork.fil.tooltip_1=Prefix #: Suche nach Tooltip.
+gui.storagenetwork.fil.tooltip_2=Prefix $: Suche nach OreDict.
+gui.storagenetwork.fil.tooltip_3=leeren mit Rechtsklick oder X-Taste
+
+gui.storagenetwork.tooltip_clear=Suche zurücksetzen
+gui.storagenetwork.fil.tooltip_jei_on=JEI Suche aktiviert
+gui.storagenetwork.fil.tooltip_jei_off=JEI Suche deaktiviert
+
+
+tooltip.storagenetwork.kabel_S=Dient zum Verbinden des Inventars mit dem Netzwerk.
+tooltip.storagenetwork.kabel_E=Exportiert Elemente aus dem Netzwerk in das angehängte Inventar.
+tooltip.storagenetwork.kabel_I=mportiert Elemente aus dem angehängten Inventar in das Netzwerk.
+tooltip.storagenetwork.kabel_P=Kann einfache Verarbeitungstransaktionen automatisieren.
+tooltip.storagenetwork.kabel_L=Standardkabel zum Verbinden von Teilen Ihres Netzwerks.
+tooltip.storagenetwork.master=Das Herzstück des Netzwerks. Nur EINE pro Netzwerk.
+tooltip.storagenetwork.request=Dient zum Anzeigen und Anfordern von Elementen aus dem Netzwerk.
+tooltip.storagenetwork.remote_0=Wird verwendet, um auf das Netzwerk zuzugreifen, das maximal 64 Blöcke entfernt ist.
+tooltip.storagenetwork.remote_1=Wird verwendet, um aus unbegrenzter Entfernung und über Dimensionen auf das Netzwerk zuzugreifen.
+tooltip.storagenetwork.remote_2=Wird verwendet, um aus unbegrenzter Entfernung auf das Netzwerk zuzugreifen.
+tooltip.storagenetwork.remote_3=Netzwerk ohne Werkbank aus unbegrenzter Entfernung.
+
+tooltip.storagenetwork.upgrade_0=Erhöht die Import- / Exportgeschwindigkeit.
+tooltip.storagenetwork.upgrade_1=Die Aktivität des Kabels hängt von der Anzahl der Artikel ab.
+tooltip.storagenetwork.upgrade_2=Erhöht die Stapelgröße der Aufgabe.
+tooltip.storagenetwork.upgrade_3=KGibt eine bestimmte Anzahl von Artikeln im angehängten Inventar aus (nur im Exportkabel).
+
+
+tile.storagenetwork:controller.name=Controller
+tooltip.storagenetwork.controller=Verwalten Sie alle Verarbeitungskabel im Netzwerk
+
+chat.master.emptyslots=Mögliche leere Plätze: 
+chat.master.connectables=Verbindungselemente: 
+processing.alwayson.true=Aktiv
+processing.alwayson.false=Verbleibend: 
+
+storagenetwork.process.status0=Angehalten oder deaktiviert
+storagenetwork.process.status1=Warten auf den Import (zwischengespeichert)
+storagenetwork.process.status2=Rezept exportieren (zwischengespeichert)
+
+processing.buttons.toggle.true=Immer Aktiv
+processing.buttons.toggle.false=Bearbeiten Sie nur die angeforderte Nummer
+processing.buttons.minus=Anfragen Reduzieren
+processing.buttons.plus=Anfragen Erhöhen
+processing.empty.ingredients=Leere Zutaten
+
+gui.storagenetwork.processing.recipe=Die Zutaten für jeden Zyklus werden so gesendet, als kämen sie von dieser Blockseite
+gui.storagenetwork.processing.extract=Wenn Verarbeitungsergebnisse gezogen werden, wird dies als ob von dieser Blockseite genommen
