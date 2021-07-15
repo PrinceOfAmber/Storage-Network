@@ -14,6 +14,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.ItemStack;
+import net.minecraft.pathfinding.PathType;
 import net.minecraft.state.EnumProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.tileentity.TileEntity;
@@ -142,6 +143,12 @@ public class BlockCable extends BaseBlock {
   @Override
   public boolean hasTileEntity(BlockState state) {
     return true;
+  }
+
+  @Override
+  @SuppressWarnings("deprecation")
+  public boolean allowsMovement(BlockState state, IBlockReader world, BlockPos pos, PathType type) {
+    return false;
   }
 
   @Override
